@@ -1,0 +1,38 @@
+
+.trending_movies {
+    display: flex;
+    overflow-x: scroll;
+    /* scroll bar */
+    overflow-y: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    display: flex;
+
+}
+.row{
+    flex-direction: column;
+}
+
+
+.tm_thumbail {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    margin-right: 20px;
+   
+}
+
+.tm_thumbail:hover {
+    transform: scale(1.06);
+    transition: transform 450ms;
+}
+.swiper {
+    width: 100%;
+    height: 300px;
+  }
+  .poster_thumbail{
+    height: 400px;
+   
+  }

@@ -1,0 +1,17 @@
+.banner{
+    height: 500px;
+    background-size: cover;
+}
+.content{
+  padding-top: 10rem;
+  margin-left: 2%;
+  height: 190px;  
+}
+
+.title{
+    font-size: 2rem;
+}
+.discription{
+    width: 25%;
+    line-height: 1.2;
+}
